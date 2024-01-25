@@ -21,4 +21,4 @@ jobs:
               run: pip install pytest-tcp
             - name: Test installation with pytest
               run: |
-                  pytest --tcp
+                  pytest --tcp --tcp-weight=0-1
